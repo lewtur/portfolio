@@ -1,0 +1,28 @@
+{
+    "experience": [
+        {
+            "workplace": "University of Birmingham",
+            "title": "BSc Artificial Intelligence & Computer Science: Class I",
+            "stay": "September 2014 - May 2018",
+            "bio": "yadda yadda yadda"
+        },
+        {
+            "workplace": "Outsourcery",
+            "title": "Placement Developer",
+            "stay": "July 2016 - September 2016",
+            "bio": "yadda yadda yadda"
+        },
+        {
+            "workplace": "TopCashback",
+            "title": "Placement Developer",
+            "stay": "September 2016 - March 2018",
+            "bio": "yadda yadda yadda"
+        },
+        {
+            "workplace": "Betfred",
+            "title": "Junior Developer",
+            "stay": "June 2018 - Current",
+            "bio": "yadda yadda yadda"
+        }
+    ]
+}
