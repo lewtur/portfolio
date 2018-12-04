@@ -6,6 +6,8 @@ const JobStyles = styled.div`
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
+    padding-bottom: 2.5rem;
+    align-items: center;
 
     @media ${props => props.theme.breakpoint.sm} {
         flex-direction: row;
@@ -28,8 +30,12 @@ const JobStyles = styled.div`
 
 const DetailsHolder = styled.div`
     text-align: left;
-    width: 30%;
+    width: 100%;
     padding-left: 1rem;
+
+    @media ${props => props.theme.breakpoint.sm} {
+        width: 30%;
+    }
 `;
 
 const Job = ({ workplace, title, stay, image }) => {

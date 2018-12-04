@@ -10,18 +10,22 @@ const ExperienceStyles = styled.section`
 
 const Experience = () => {
     const jobs = data.jobs;
-    const jobComponents = jobs.map(job => {
-        return <Job
-            workplace={job.workplace}
-            title={job.title}
-            stay={job.stay}
-            image={job.image}
-        />;
+    const jobComponents = jobs.map((job, index) => {
+        return (
+            <div key={job.workplace} className="wow fadeIn" data-wow-delay={`${index * 50}ms`}>
+                <Job
+                    workplace={job.workplace}
+                    title={job.title}
+                    stay={job.stay}
+                    image={job.image}
+                />
+            </div>
+        );
     })
 
     return (
         <ExperienceStyles id="experience">
-            <h2>Experience</h2>
+            <h2 className="wow fadeIn">Experience</h2>
             {jobComponents}
         </ExperienceStyles>
     );

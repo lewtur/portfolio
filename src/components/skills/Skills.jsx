@@ -32,10 +32,18 @@ const Skills = () => {
     const skills = data.skills;
 
     return (
-        <SkillsStyles>
-            <h2 id="skills">Skills</h2>
+        <SkillsStyles id="skills">
+            <h2 className="wow fadeIn">Skills</h2>
             <div className="skills-holder">
-                {skills.map(skill => <Skill name={skill.name} logo={skill.logo} proficiency={skill.proficiency} /> )}
+                {skills.map((skill, index) =>
+                    <div key={skill.name} className="wow fadeIn" data-wow-delay={`${index * 50}ms`}>
+                        <Skill
+                            name={skill.name}
+                            logo={skill.logo}
+                            proficiency={skill.proficiency}
+                        />
+                    </div>
+                )}
             </div>
         </SkillsStyles>
     );
