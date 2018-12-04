@@ -1,0 +1,44 @@
+{
+    "skills": [
+        {
+            "name": "React.js",
+            "logo": "react",
+            "proficiency": 4
+        },
+        {
+            "name": "Angular",
+            "logo": "angular",
+            "proficiency": 3
+        },
+        {
+            "name": "JavaScript",
+            "logo": "js-square",
+            "proficiency": 4
+        },
+        {
+            "name": "C#",
+            "logo": "microsoft",
+            "proficiency": 4
+        },
+        {
+            "name": "AWS",
+            "logo": "aws",
+            "proficiency": 3
+        },
+        {
+            "name": "Docker",
+            "logo": "docker",
+            "proficiency": 2
+        },
+        {
+            "name": "CSS3",
+            "logo": "css3-alt",
+            "proficiency": 4
+        },
+        {
+            "name": "HTML5",
+            "logo": "html5",
+            "proficiency": 4
+        }
+    ]
+}

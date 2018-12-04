@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import BackgroundImage from '../assets/placeholder.jpg';
+import BackgroundImage from '../localAssets/placeholder.jpg';
 
 const Parallax = styled.div`
     background-image: url('${BackgroundImage}');
