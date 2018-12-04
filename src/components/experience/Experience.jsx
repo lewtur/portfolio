@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import data from '../data/experience.json';
+import data from '../../data/experience.json';
 import Job from './Job.jsx';
 
 const ExperienceStyles = styled.section`

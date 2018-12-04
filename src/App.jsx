@@ -6,8 +6,8 @@ import Intro from './components/Intro';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Bio from './components/Bio';
-import Skills from './components/Skills';
-const Experience = lazy(() => import('./components/Experience'));
+import Skills from './components/skills/Skills';
+const Experience = lazy(() => import('./components/experience/Experience'));
 
 class App extends Component {
     render() {
