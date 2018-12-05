@@ -6,11 +6,12 @@ const JobStyles = styled.div`
     justify-content: center;
     flex-direction: column;
     padding: 1rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 4rem;
     align-items: center;
 
     @media ${props => props.theme.breakpoint.sm} {
         flex-direction: row;
+        padding-bottom: 2.5rem;
     }
 
     img {

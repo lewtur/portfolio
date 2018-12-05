@@ -5,7 +5,7 @@ import Header from './components/Header';
 import theme from './theme';
 import Intro from './components/Intro';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import Bio from './components/Bio';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
