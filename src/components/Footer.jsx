@@ -26,9 +26,9 @@ const Footer = () => {
     return (
         <FooterStyles>
             <LinkHolder>
-                <ExternalLink link="https://stackoverflow.com/users/7012762/lewtur" icon="fa-stack-overflow" />
-                <ExternalLink link="https://github.com/lewtur" icon="fa-github" />
-                <ExternalLink link="https://linkedin.com" icon="fa-linkedin" />
+                <ExternalLink link="https://stackoverflow.com/users/7012762/lewtur" icon="stack-overflow" />
+                <ExternalLink link="https://github.com/lewtur" icon="github" />
+                <ExternalLink link="https://linkedin.com" icon="linkedin" />
             </LinkHolder>
         </FooterStyles>
     );
@@ -36,8 +36,8 @@ const Footer = () => {
 
 const ExternalLink = ({ link, icon }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer" title={icon}>
-            <ProfileLink className={`fab ${icon}`} />
+        <a href={link} target="_blank" rel="noopener noreferrer" title={icon} aria-label={icon}>
+            <ProfileLink className={`fab fa-${icon}`} />
         </a>
     );
 }

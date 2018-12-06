@@ -7,9 +7,10 @@ const HeaderStyles = styled.header`
     padding: 1rem 0rem 0rem 2rem;
 `;
 
-const Name = styled.div`
+const Name = styled.h1`
     font-weight: bold;
     font-size: 1.5rem;
+    margin: 0;
 `;
 
 const TagLine = styled.div`
