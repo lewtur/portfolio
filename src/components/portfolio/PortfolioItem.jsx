@@ -5,6 +5,8 @@ const PortfolioItemStyles = styled.div`
 
     padding: 1rem;
     font-size: 1rem;
+    display: flex;
+    justify-content: center;
 
     &:hover {
         opacity: 0.8;

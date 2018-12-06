@@ -10,6 +10,11 @@ const PortfolioStyles = styled.section`
 const PortfolioItemsHolder = styled.div`
     display: flex;
     justify-content: center;
+    flex-direction: column;
+
+    @media ${props => props.theme.breakpoint.md} {
+        flex-direction: row;
+    }
 `;
 
 const Portfolio = () => {
