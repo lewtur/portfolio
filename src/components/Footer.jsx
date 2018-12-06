@@ -36,7 +36,7 @@ const Footer = () => {
 
 const ExternalLink = ({ link, icon }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={link} target="_blank" rel="noopener noreferrer" title={icon}>
             <ProfileLink className={`fab ${icon}`} />
         </a>
     );

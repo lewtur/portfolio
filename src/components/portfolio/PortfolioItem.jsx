@@ -25,8 +25,8 @@ const PortfolioItemStyles = styled.div`
 const PortfolioItem = ({ name, url, logo }) => {
     return (
         <PortfolioItemStyles>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-                <img src={`../assets/${logo}`} alt={`${name} company logo`} />
+            <a href={url} target="_blank" rel="noopener noreferrer" title={name}>
+                <img src={`../assets/${logo}`} alt={`${name} company logo`} title={`${name} company logo`} />
                 <div><strong>{name}</strong></div>
             </a>
 

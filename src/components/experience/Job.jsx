@@ -42,7 +42,7 @@ const DetailsHolder = styled.div`
 const Job = ({ workplace, title, stay, image }) => {
     return (
         <JobStyles>
-            <div><img src={`../assets/${image}`} alt={`${workplace} logo`} /></div>
+            <div><img src={`../assets/${image}`} alt={`${workplace} logo`} title={`${workplace} logo`} /></div>
             <DetailsHolder>
                 <div className="workplace">{workplace}</div>
                 <div className="title">{title}</div>
