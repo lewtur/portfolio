@@ -15,7 +15,7 @@ const JobStyles = styled.div`
     }
 
     img {
-        width: 15rem;
+        width: 13rem;
     }
 
     .workplace {

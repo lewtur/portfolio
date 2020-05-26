@@ -1,13 +1,13 @@
 {
     "skills": [
         {
-            "name": "React.js",
-            "logo": "react",
+            "name": "AWS",
+            "logo": "aws",
             "proficiency": 4
         },
         {
-            "name": "Angular",
-            "logo": "angular",
+            "name": "React.js",
+            "logo": "react",
             "proficiency": 3
         },
         {
@@ -16,13 +16,13 @@
             "proficiency": 4
         },
         {
-            "name": "C#",
-            "logo": "microsoft",
-            "proficiency": 4
+            "name": "Golang",
+            "logo": "fish",
+            "proficiency": 3
         },
         {
-            "name": "AWS",
-            "logo": "aws",
+            "name": "C#",
+            "logo": "microsoft",
             "proficiency": 3
         },
         {
@@ -33,7 +33,7 @@
         {
             "name": "CSS3",
             "logo": "css3-alt",
-            "proficiency": 4
+            "proficiency": 3
         },
         {
             "name": "HTML5",

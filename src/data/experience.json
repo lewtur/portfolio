@@ -1,9 +1,15 @@
 {
     "jobs": [
         {
+            "workplace": "The Economist Group",
+            "title": "Software Engineer",
+            "stay": "June 2019 - current",
+            "image": "economist-logo.png"
+        },
+        {
             "workplace": "Betfred",
-            "title": "Junior Developer",
-            "stay": "June 2018 - Current",
+            "title": "Junior Developer → Developer",
+            "stay": "June 2018 - June 2019",
             "image": "betfred-logo.png"
         },
         {

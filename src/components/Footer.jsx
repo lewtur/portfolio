@@ -28,7 +28,7 @@ const Footer = () => {
             <LinkHolder>
                 <ExternalLink link="https://stackoverflow.com/users/7012762/lewtur" icon="stack-overflow" />
                 <ExternalLink link="https://github.com/lewtur" icon="github" />
-                <ExternalLink link="https://linkedin.com" icon="linkedin" />
+                <ExternalLink link="https://www.linkedin.com/in/lewis-turner-925046107/" icon="linkedin" />
             </LinkHolder>
         </FooterStyles>
     );
